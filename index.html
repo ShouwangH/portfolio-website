@@ -20,50 +20,53 @@
 	<div id="page-wrapper">
 
 		<!-- Header -->
-		<header id="header">
-			<h1><a href="index.html">Shouwang's Portfolio</a></h1>
-			<nav>
-				<a href="#menu">Links/Contact Me</a>
-			</nav>
-		</header>
+		<div class="navbar">
+			<span>
+				<nav>
+					<div class="navicon">
+						<div></div>
+					</div>
 
-		<!-- Menu -->
-		<nav id="menu">
-			<div class="inner">
-				<h2>My Links</h2>
-				<ul class="links">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="generic.html">Linkedin</a></li>
-					<li><a href="elements.html">Github</a></li>
-					<li><a href="#">Log In</a></li>
-					<li><a href="#">Sign Up</a></li>
-				</ul>
-				<a href="#" class="close">Close</a>
-			</div>
-		</nav>
+					<a href="#one">About Me</a>
+					<a href="#two">Skills</a>
+					<a href="#three">Projects</a>
+					<a href="#footer">Contact Me</a>
+				</nav>
+			</span>
+		</div>
 
 		<!-- Wrapper -->
 		<section id="wrapper">
 			<section id="banner">
 				<div class="inner">
 					<h2>Shouwang Huang</h2>
-					<p>Software Engineer, App Developer, and Business Analyst</p>
+					<p>Software Engineer, App Developer, and Coding Enthusiast</p>
 				</div>
 			</section>
 
 			<div class="wrapper">
-				<section id="one" class="wrapper spotlight style1">
+				<section id="one" class="wrapper spotlight style3">
 					<div class="inner">
 						<a class="image"><img src="images/pic01.jpg" alt="" /></a>
 						<div class="content">
 							<h3 class="major">Background</h3>
-							<p>Hello, my name is Shouwang and I am a software developer/ business analyst currently
-								based in Chicagoand graduated from Northwestern University.</p>
-							<P>
-								However, my life isn't just defined by my past but also my inspiration for creation
-								and pursuit of new knowledge.</P>
-							<p>Feel free to explore my site and look through my experience and work.</p>
-							<a class="special" href=""> My Resume</a>
+							<div class="align-left">
+								<p>Hello, my name is Shouwang and I am a software developer
+									based in Chicago and a graduate of Northwestern University.
+								<p>I consider myself a builder of dream apps and professional killer of bugs. I'm also
+									a problem solver with experience in the financial and manufacturing spheres which
+									allows me to bring new perspectives and ideas to existing challenges.</p>
+								<p>Feel free to peruse the site and contact me if the fancy strikes.</p>
+							</div>
+							<ul class="actions">
+								<li>
+									<a class="button primary icon solid fa-download"
+										href="https://docs.google.com/document/d/1FObQsZ8wthdY8H1NIUp8-7QL2JJOvvlRGoLL7kQgYVY/edit?usp=sharing">Resume</a>
+								</li>
+								<li><a href="mailto:shouwangh82@gmail.com"
+										class="button primary icon solid fa-envelope">Email</a></li>
+							</ul>
+
 							</p>
 
 
@@ -73,46 +76,47 @@
 
 				<section id="two" class="wrapper spotlight alt style6">
 					<div class="inner">
-						<a class="image"><img src="images/pic04.jpg" alt="" /></a>
 						<div class="content">
 							<h3 class="major">Skills</h3>
 							<ul class=" actions fit">
 								<li>
-									<p class="button fit primary">Python</p>
+									<p class="button fit primary icon brands fa-python">Python</p>
 								</li>
 								<li>
-									<p class="button fit primary">HTML</p>
+									<p class="button fit primary icon brands fa-html5">HTML</p>
 								</li>
 								<li>
-									<p class="button fit primary">CSS</p>
+									<p class="button fit primary icon brands fa-css3">CSS</p>
 								</li>
 							</ul>
 							<ul class=" actions fit">
 								<li>
-									<p class="button fit primary">Javascript</p>
+									<p class="button fit primary icon brands fa-js-square">Javascript</p>
 								</li>
 								<li>
-									<p class="button fit primary">react-js</p>
+									<p class="button fit primary icon brands fa-react">React.js</p>
 								<li>
-									<p class="button fit primary">Visual Basic</p>
+									<p class="button fit primary icon brands fa-microsoft">Visual Basic</p>
 								</li>
 							</ul>
 							<ul class="actions fit">
 								<li>
-									<p class="button fit primary">Cloud Firestore</p>
+									<p class="button fit primary icon brands fa-google">Firebase</p>
 								</li>
-								<li></li>
+								<li>
+									<p class="button fit primary icon brands fa-bootstrap">Bootstrap</p>
+								</li>
 								<li></li>
 							</ul>
 
 							<a class="special" href="https://www.linkedin.com/in/shouwang-huang-71155ab7/">LinkedIn
-								<abbr class="icon brands fa-linkedin"></a>
+								<span class="icon brands fa-linkedin"></a>
 						</div>
 
 					</div>
 				</section>
 
-				<section id="three" class="wrapper style3">
+				<section id="three" class="wrapper style1">
 					<div class="inner">
 						<div class="content">
 							<h3 class="major">Selected Projects</h3>
@@ -134,33 +138,27 @@
 								</article>
 							</section>
 
-							<a class="special" href="https://github.com/ShouwangH">GitHub <abbr
-									class="icon brands fa-github" /></a>
+							<a class="special" href="https://github.com/ShouwangH">GitHub <span
+									class="icon brands fa-github"></a>
 						</div>
 				</section>
-
-
 			</div>
-
-
-
 		</section>
 
 		<!-- Footer -->
-		<section id="footer" class="wrapper alt">
+		<section id="footer">
 			<div class="inner">
 				<h2 class="major">Get in touch</h2>
-				<p>Feel free to reach out in any way. However I suggest email as the item I will be most responsive to.
-				</p>
+
 				<div class="row aln-center">
-					<a class="icon solid fa-envelope col-1"></a>
+					<a class="icon solid fa-envelope col-1" href="mailto:shouwangh82@gmail.com"></a>
 					<a class="icon brands fa-github col-1" href="https://github.com/ShouwangH"></a>
-					<a class="icon brands fa-linkedin col-1"></a>
+					<a class="icon brands fa-linkedin col-1" href="https://www.linkedin.com/in/shouwanghuang/"></a>
 				</div>
 
 				<ul class="copyright">
-					<li>&copy; Untitled Inc. All rights reserved.</li>
-					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					<li>&copy; Shouwang Huang. All rights reserved.</li>
+					<li>Design: <a href="https://html5up.net/uploads/demos/solid-state/index.html">HTML5 UP</a></li>
 				</ul>
 			</div>
 		</section>
