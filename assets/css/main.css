@@ -3774,6 +3774,7 @@ input, select, textarea {
 				margin: 0 3em 2em 0;
 				width: 22em;
 				overflow: hidden;
+				flex:2;
 				-ms-flex: 1;
 			}
 
@@ -3784,6 +3785,7 @@ input, select, textarea {
 
 			.wrapper.spotlight .content {
 				width: 100%;
+				flex:2;
 				-ms-flex: 2;
 			}
 
