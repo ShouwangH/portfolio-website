@@ -9,7 +9,7 @@
 * [Contact](#contact)
 
 ## General Information
-One page personal portfolio website
+> One page personal portfolio website
 
 
 ## Technologies Used
